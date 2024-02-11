@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7jKx4viKvphyzRuT5x-MzlXiDmoSOlxsR1aom2mhqEA" />
+    <meta name="keywords" content="Web development, Front-end development, Back-end development, Full-stack development, HTML, CSS, JavaScript, jQuery, React, Angular, Vue.js, Node.js, PHP, Python, Ruby on Rails, Bootstrap, Responsive design, Cross-browser compatibility, User experience (UX), User interface (UI), Accessibility, Search engine optimization (SEO), Performance optimization, Content management systems (CMS), Git, Agile development, Scrum, Test-driven development (TDD), Continuous integration/continuous deployment (CI/CD), DevOps
+
+
+
+"/>
+    <meta name="description" content="Looking for a skilled Front-End Developer based in Rajasthan, India? Look no further than Rao Nikesh NK! With expertise in HTML, CSS, and JavaScript, Nikesh builds quality websites and applications while also excelling in team management, sales growth, and customer satisfaction. Trust Nikesh for all your web development needs, including SEO and online advertising. With experience teaching web development, he is the perfect partner to help take your online presence to the next level." />
+    <title>Rao Nikesh NK | Front-End Web Developer</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header class="header_wrapper ">
+        <nav class="navbar navbar-light fixed-top ">
+            <div class=" container-lg container-fluid d-flex justify-content-center mb-5 mb-sm-0 justify-content-md-between " id="top_cont">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="images/logo-white.png" width="120px" class="img-fluid" alt="logo  ">
+                </a>
+                <ul class="m-0 list-unstyled d-none d-sm-block">
+                    <li><a href="./images/NikeshResume.pdf" class="main-btn" download>Download CV</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="banner_wrapper">
+        <div class="position-relative">
+            <div class="background_shape"></div>
+            <div class="main-content">
+                <div class="container-lg container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 order-lg-1 order-2 pt-2">
+                            <h3 data-aos="fade-right" data-aos-offset="100"
+                            data-aos-easing="ease-in-sine">I'm</h3>
+                            <h1 data-aos="fade-right"data-aos-offset="100"
+                            data-aos-easing="ease-in-sine"><%= bannerRecord.title%></h1>
+                            <h5 data-aos="fade-right"data-aos-offset="100"
+                            data-aos-easing="ease-in-sine"><%= bannerRecord.desc%></h5>
+                            <div class="mt-4 social-icon">  
+                                <ul class="list-unstyled d-flex m-0"  data-aos="fade-right" data-aos-easing="ease-in-sine">
+                                    <li class="me-2"><a href="https://www.facebook.com/RaoNikeshNK"><img src="./images/social-icon/facebook.svg"></a></li>
+                                    <li class="me-2"><a href="https://twitter.com/RaoNikeshNK"><img src="./images/social-icon/twitter-icon.svg"></a></li>
+                                    <li class="me-2"><a href="https://www.linkedin.com/in/RaoNikeshNK/"><img src="./images/social-icon/linkedin.svg"></a></li>
+                                    <li class="me-2"><a href="https://www.instagram.com/RaoNikeshNK/"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-png-transparent-instagram-images-pluspng-3.png" width="10" alt="logo ig, instagram png transparent instagram images pluspng" /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 order-lg-2 order-1">
+                            <div class="ms-lg-auto text-center ">
+                                <img src="/upload/<%= bannerRecord.img%>" class="img img-fluid rounded-pill profileimg" width="320px" data-aos="fade-left"  data-aos-offset="100"
+                                data-aos-easing="ease-in-sine" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-menu mt-lg-5 mt-5 main_menu_wrapper">
+        <div class="container-lg container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item about_wrapper"  data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="icon-box h-100">
+                                        <img src="./images/menu-icon/about-icon.svg" >
+                                    </span>
+                                    <h3 class="text-white px-4 mb-0">About Me</h3>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                     <div class="row">
+                                         <div class="col-lg-6">
+                                             <div class="position-relative">
+                                                 <div class="card card_img">
+                                                     <img src="./images/aboutpic.png">
+                                                 </div>
+                                                 <div class="card card_detail">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <h6>Name</h6>
+                                                            <span>Nikesh Kumar</span>
+                                                        </li>
+                                                       
+                                                        <li>
+                                                            <h6>Mail</h6>
+                                                            <span>raonikeshnk@gmail.com</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Phone</h6>
+                                                            <span>+91 (995) 056-3120</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Address</h6>
+                                                            <span>Shahjahanpur, Alwar, Rajasthan</span>
+                                                        </li>
+                                                    </ul>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-6 ps-lg-5 pt-lg-0 pt-5">
+                                            <!-- <h3>About Me</h3> -->
+                                            <h2>Front-End Developer</h2>
+                                            <h5>A passionate Front-End Developer based In
+                                                Rajasthan, India</h5>
+                                            <p>As a Branch Manager with 1.5 years of experience in edutech, I excel in team management, sales growth, and customer satisfaction. Proficient in HTML, CSS, and JavaScript, I build quality websites and applications with expertise in SEO and online advertising. Additionally, I have experience teaching web development.</p>
+                                            <button class="btn main-btn my-4"><a href="./images/NikeshResume.pdf" class="main-btn" download>Download CV</a></button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item resume_wrapper"  data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="icon-box">
+                                    <img src="./images/menu-icon/resume-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Resume</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <!-- <h3>Resume</h3> -->
+                                            <h2>Combination of Skill <br class="d-lg-block d-none"> & Experience</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            
+                                            <div>
+                                                <div class="title position-relative">
+                                                    <h2 class="mb-4">Experience</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">Manager
+                                                                </h4>
+                                                                <h5>EB Edutech Pvt. Ltd, Jaipur</h5>
+                                                                <hr style="border: 1px solid lightgreen;">
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>09/2021-Present</span>
+                                                            </div>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li><h6 style="font-size: 1.1rem;">Motivate and coach employees to meet service, sales, and repair goals.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">I am working as a trainer for web development where I use HTML, Java, Bootstrap, Javascript, CSS3 and React Native.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Working on the company's official website (indiancoding.com) for content updates.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">I always use ending mind for complete the work.</h6></li>
+                                                          </ul>
+                                                    </li>
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">Graduate Apprentice Trainee
+                                                                </h4>
+                                                                <h5>Havells India Pvt. Ltd.,Ghiloth</h5><hr style="border: 1px solid lightgreen;">
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>01/2021-09/2021</span>
+                                                            </div>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li><h6 style="font-size: 1.1rem;">Implemented the idea of cost saving Rs 3 lakh per annum.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Manage inventory of Assembly Line using SAP.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Implemented weekly inventory for easy inventory process.</h6></li>
+                                                          </ul>
+                                                    </li>
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">Guest Lecturer
+                                                                </h4>
+                                                                <h5>Govt. Polytechnic College,<br> Neemrana</h5><hr style="border: 1px solid lightgreen;">
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>08/2019-12/2020</span>
+                                                            </div>
+                                                        </div>
+                                                        <ul class="list-unstyled">
+                                                            <li><h6 style="font-size: 1.1rem;">Planning and preparing day-to-day activities and lectures.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Delivering lectures on time and as per syllabus.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Researching lecture topics.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Assigning projects and assignments to students.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Conducting and supervising examinations and tests.</h6></li>
+                                                            <li><h6 style="font-size: 1.1rem;">Attending staff meetings and preparing meeting minutes when required.</h6></li>
+                                                          </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2>Education</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">Senior secondary in PCM
+                                                                </h4>
+                                                                <h5>Rajasthan Board of secondary Education</h5>
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>2017</span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <p>The goal of cognitive science is to understand the principles
+                                                            of
+                                                            intelligence with the hope that this will lead to better
+                                                            comprehension.</p> -->
+                                                    </li>
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">B.Tech in Computer Science
+                                                                </h4>
+                                                                <h5>Raffles University, Neemrana</h5>
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>2019</span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <p>The goal of cognitive science is to understand the principles
+                                                            of
+                                                            intelligence with the hope that this will lead to better
+                                                            comprehension.</p> -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                          
+                                            
+                                            
+                                        </div>
+                                        <div class="col-lg-6 ps-lg-5 pt-lg-0 pt-5">
+                                            <div>
+                                                <div class="title position-relative">
+                                                    <h2>Personal Skills</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled pt-4 skills">
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Time Management</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 90%;"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Effeciency</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 75%;"></div>
+                                                            <span>75%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Integrity</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 80%;"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2>Software Skills</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled pt-4 skills">
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">HTML5</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 90%;"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">CSS3</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 80%;"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">JavaScript</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 60%;"></div>
+                                                            <span>60%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">jQuery/jQuery UI</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 60%;"></div>
+                                                            <span>60%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Bootstrap</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 80%;"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2 class="mb-4">Certificates</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                  <li><h6 style="font-size: 1.1rem;">Web Designing - Ducate, Noida</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Fundamental of Digital Marketing - Google Digital Garage</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Business Analytics with Excel - Simplilearn</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Web Design Module - BitDegree</h6></li>
+                                                 
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2 class="mb-4">Strengths</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                  <li><h6 style="font-size: 1.1rem;">Results-oriented</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Quick Learner and Good Interpersonal Skills</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Good Communication Skills</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Problem Solving</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Creative Thinking</h6></li>
+                                                  <li><h6 style="font-size: 1.1rem;">Resistance to stress</h6></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- portfolio  -->
+                         <div class="accordion-item portfolio_wrapper">
+                            <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="icon-box">
+                                    <img src="./images/menu-icon/portfolio-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Portfolio</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <!-- <h3>Portfolio</h3> -->
+                                            <h2>My works that I did for <br class="d-lg-block d-none">clients</h2>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab"
+                                        role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-one" role="tab" aria-controls="pills-one"
+                                                aria-selected="true">All</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-two" role="tab" aria-controls="pills-two"
+                                                aria-selected="true">Popular</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-three" role="tab" aria-controls="pills-three"
+                                                aria-selected="true">Latest</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane show active" id="pills-one" role="tabpanel"
+                                            aria-labelledby="pills-one-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-1.png" class="w-100 h-100 float-start">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">Tiwar Foundation</h5>
+                                                            <p class="m-0 text-white">tiwarfoundation.org</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-2.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">SS Motivation</h5>
+                                                            <p class="m-0 text-white">ssmotivation.com</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-3.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">Kuldeep Jakhar</h5>
+                                                            <p class="m-0 text-white">kuldeepjakhar.com</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-4.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">Mash Appliances</h5>
+                                                            <p class="m-0 text-white">mashappliances.in</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-5.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">Shubham Tiwari</h5>
+                                                            <p class="m-0 text-white">shubhamtiwaricx.com</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-6.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">Sunil Ydv SS</h5>
+                                                            <p class="m-0 text-white">sunilydvss.com</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-two" role="tabpanel"
+                                            aria-labelledby="pills-two-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-1.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-2.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-3.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-three" role="tabpanel"
+                                            aria-labelledby="pills-three-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-4.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-5.png" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img src="./images/portfolio/portfolio-6.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="accordion-item services_wrapper" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span class="icon-box">
+                                    <img src="./images/menu-icon/service-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Services</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <!-- <h3>Service</h3> -->
+                                                <h2>Never compromise <br class="d-lg-block d-none">with quality</h2>
+                                                <h5>I can offer a range of services to help businesses and individuals establish a strong online presence and achieve their goals. Some of the services I can provide include:</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6 mb-4" >
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/1.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Graphic Design</h3>
+                                                    <p class="text-white m-0">I Like to Play with Colors Patterns and Designs, so I design some thing. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/2.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Web Development</h3>
+                                                    <p class="text-white m-0">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/3.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">UI / UX Design</h3>
+                                                    <p class="text-white m-0">
+                                                        I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/4.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Web App Development</h3>
+                                                    <p class="text-white m-0">Creating and deploying software applications that are accessed through web browsers or web-enabled devices</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/5.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">CMS Design</h3>
+                                                    <p class="text-white m-0">I can create a CMS-based website that allows you to easily add, edit, and delete content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4" >
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img src="./images/services-img/6.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">SEO</h3>
+                                                    <p class="text-white m-0">I can optimize your website for search engines to improve its ranking in search results and increase traffic to your site</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item testimonial_wrapper" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <span class="icon-box">
+                                    <img src="./images/menu-icon/testimonial-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Testimoinal</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <!-- <h3>Testimonials</h3> -->
+                                                <h2>What people say <br class="d-lg-block d-none">about me</h2>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-8 col-md-10">
+                                            <div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                    <button data-bs-target="#testimonial-slider" data-bs-slide-to="0"
+                                                        class="active" aria-current="true"
+                                                        aria-label="Slide 1"></button>
+                                                    <button data-bs-target="#testimonial-slider" data-bs-slide-to="1"
+                                                        aria-label="Slide 2"></button>
+                                                    <button data-bs-target="#testimonial-slider" data-bs-slide-to="2"
+                                                        aria-label="Slide 3"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="d-sm-flex">
+                                                            <div class="profile-box">
+                                                                <img src="./images/testimonial/1.jpg">
+                                                                <div class="mt-4 text-center">
+                                                                    <h5 class="text-uppercase text-white mb-0">Jecob
+                                                                        Oramson</h5>
+                                                                    <p class="m-0 text-white">UI/UX Designer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="desc-box">
+                                                                    <p class="fst-italic">Not only was customer support
+                                                                        very fast, but the
+                                                                        design is very professional. Will definitely be
+                                                                        looking for new products
+                                                                        in the future from this author.</p>
+                                                                    <img src="./images/testimonial/qoutes.svg"
+                                                                        class="float-end">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <div class="d-sm-flex">
+                                                            <div class="profile-box">
+                                                                <img src="./images/testimonial/2.jpg">
+                                                                <div class="mt-4 text-center">
+                                                                    <h5 class="text-uppercase text-white mb-0">Jecob
+                                                                        Oramson</h5>
+                                                                    <p class="m-0 text-white">UI/UX Designer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="desc-box">
+                                                                    <p class="fst-italic">Not only was customer support
+                                                                        very fast, but the
+                                                                        design is very professional. Will definitely be
+                                                                        looking for new products
+                                                                        in the future from this author.</p>
+                                                                    <img src="./images/testimonial/qoutes.svg"
+                                                                        class="float-end">
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <div class="d-sm-flex">
+                                                            <div class="profile-box">
+                                                                <img src="./images/testimonial/3.jpg">
+                                                                <div class="mt-4 text-center">
+                                                                    <h5 class="text-uppercase text-white mb-0">Jecob
+                                                                        Oramson</h5>
+                                                                    <p class="m-0 text-white">UI/UX Designer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="desc-box">
+                                                                    <p class="fst-italic">Not only was customer support
+                                                                        very fast, but the
+                                                                        design is very professional. Will definitely be
+                                                                        looking for new products
+                                                                        in the future from this author.</p>
+                                                                    <img src="./images/testimonial/qoutes.svg"
+                                                                        class="float-end">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item blog_wrapper" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <span class="icon-box">
+                                    <img src="./images/menu-icon/blog-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Blog</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <!-- <h3>Blog</h3> -->
+                                                <h2>Latest tips, tricks & <br class="d-lg-block d-none">Updates</h2>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <img src="./images/blog/1.jpg" class="img-fluid">
+                                                <div class="p-4">
+                                                    <h5>Tools</h5>
+                                                    <a href="#">Top 10 Front-End Tools for Web Developers</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <img src="./images/blog/2.jpg" class="img-fluid">
+                                                <div class="p-4">
+                                                    <h5>Tips</h5>
+                                                    <a href="#">Mastering Responsive Web Design: 5 Tips</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <img src="./images/blog/3.jpg" class="img-fluid">
+                                                <div class="p-4">
+                                                    <h5>SEO</h5>
+                                                    <a href="#">Optimizing Your Website for Search Engines</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="accordion-item contact_wrapper" data-aos="fade-up">
+                            <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <span class="icon-box">
+                                    <img src="../images/menu-icon/contact-icon.svg" alt="contact icon">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Contact</h3>
+                            </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <h3>Hire Me</h3>
+                                                <h2>Contact me to get <br class="d-lg-block d-none">your work done</h2>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="row">
+                                         <div class="col-xl-5 col-md-6 pb-md-0 pb-5">
+                                             <ul class="list-unstyled">
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img src="./images/contact/call.svg" alt="call icon">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Call Me</h5>
+                                                        <p class="m-0">+91 (995) 056-3120</p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img src="./images/contact/emai.svg" alt="email icon">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Email Us</h5>
+                                                        <p class="m-0">raonikeshnk@gmail.com</p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img src="./images/contact/map.svg" alt="address icon">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Address</h5>
+                                                        <p class="m-0">Alwar, Rajasthan   </p>
+                                                    </div>
+                                                </li>
+                                             </ul>
+                                         </div>
+                                         <div class="col-xl-7 col-md-6">
+                                             <form method="POST" onsubmit="sendEmail(); reset(); return false;">
+                                                 <div class="row">
+                                                     <div class="col-sm-6 col-12 mb-4 ">
+                                                         <input type="text" class="form-control inp_hover" id="Name" placeholder="Your Name" autocomplete="off" required>
+                                                     </div>
+                                                     <div class="col-sm-6 col-12 mb-4">
+                                                        <input type="email" class="form-control" id="Email" placeholder="Your Email" autocomplete="off" required>
+                                                    </div>
+                                                 </div>
+                                                 <div class="row">
+                                                    <div class="col-sm-6 col-12 mb-4">
+                                                        <input type="number" class="form-control" id="Phone" placeholder="Your Phone" autocomplete="off" required>
+                                                    </div>
+                                                    <div class="col-sm-6 col-12 mb-4">
+                                                       <input type="text" class="form-control" id="Subject" placeholder="Subject" autocomplete="off" required>
+                                                   </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 mb-4">
+                                                        <input class="textarea form-control" id="Message" placeholder="Your Message Here...">
+                                                    </div>
+                                                </div>
+                                                <button class="btn main-btn">Submit Now</button>
+                                             </form>
+                                         </div>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-lg container-fluid">
+            <div class="row py-lg-5 py-3">
+                <div class="col">
+                    <div class="text-center">
+                        <p>&copy; 2023 <b><a href="https://linktr.ee/raonikeshnk">Rao Nikesh NK</a></b> <br> <span style="font-size:15px; font-weight:200;">Designed By <b>Abhishek Sharma</b></span></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<!--<div class="elfsight-app-e6d47b2d-8c22-4759-a98a-30335ce2aa6f"></div>-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            
+        });
+      </script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+      <script>
+        
+
+        function sendEmail(){
+            
+            let name = document.getElementById('Name').value;
+            let email = document.getElementById('Email').value;
+            let phone = document.getElementById('Phone').value;
+            let subject  = document.getElementById('Subject').value;
+            let message  = document.getElementById('Message').value;
+    
+            let body = "Name:" + name + "<br/> Email:" + email+ "<br/> Phone:" + phone + "<br/> Subject:" + subject + "<br/> Message:" + message;
+
+            
+            Email.send({
+                SecureToken: "97ac94ec-97ac-47dc-887d-5e72522bdb8c",
+                // Host : "smtp.elasticemail.com",
+                // Username : "indiancoding.alwar@gmail.com",
+                // Password : "EE807E460412F81EFCC87CC4F2D40A027AB1",
+                To : 'raonky222@gmail.com',
+                From : "indiancoding.alwar@gmail.com",
+                Subject : "New contact form enquiry",
+                Body : body,
+            }).then(
+            message => alert("Thanks!!")
+            );
+        }
+      </script>
+
+</body>
+
+</html>
+
+        

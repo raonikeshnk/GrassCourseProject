@@ -1,0 +1,10 @@
+const{views, name}=req.body
+    console.log(req.files)
+    if(req.file){
+        const filename = req.file.filename
+        var record = await new Testi({quotes:views, name:name, img:filename})
+    }else{
+        var record = await new Testi({quotes:views, name:name, img:'default.png'})
+    }
+    record.save()
+    res.redirect('/testiadd')

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <%-include('../partials/header.ejs')%>
+
+    <section id="mid">
+        <div class="container">
+            <div class="row">
+                <%-include('../partials/left.ejs')%>
+                <div class="col-md-9">
+                    <h2>Parking Management</h2>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>S No.</th>
+                            <th>Vechile No.</th>
+                            <th>Vechile InTime</th>
+                            <th>Vechile Out Time</th>
+                            <th>Vechile Type</th>
+                            <th>Vechile Charge Amount</th>
+                            <th>Vechile Status</th>
+                            <th>Print</th>
+                        </tr>
+                        <%record.forEach((result, key)=>{%>
+                        <tr>
+                            <td><%=key+1%></td>
+                            <td><%=result.vno%></td>
+                            <td><%=result.vin%></td>
+                            <td><%=result.vout%></td>
+                            <td><%=result.vtype%></td>
+                            <td><%=result.amount%></td>
+                            <%if(result.status=="Out"){%>
+                            <td><a href="/parkingupdate/<%=result.id%>"><button disabled class="btn btn-success"><%=result.status%></button></a></td>
+                            <td><a href="/print/<%=result.id%>"><button class="btn btn-info">Print Recept</button></a></td>
+                            <%}else{%>
+                            <td><a href="/parkingupdate/<%=result.id%>"><button class="btn btn-success"><%=result.status%></button></a></td>
+                            <td><a href="/print/<%=result.id%>"><button disabled class="btn btn-info">Print Recept</button></a></td>
+
+                            <%}%>
+                            <%if(result.status=='Out'){%>
+                            <%}%>
+                        </tr>
+                        <%})%>
+                        
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%-include('../partials/footer.ejs')%>
+    
+    
+</body>
+</html>

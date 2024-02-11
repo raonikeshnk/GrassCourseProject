@@ -1,0 +1,32 @@
+#login{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+#login h2{
+    text-align: center;
+}
+#header{
+    background: blue;
+    padding: 15px 0;
+}
+#header h4{
+    color: white;
+}
+#header button{
+    float: right;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#mid h2{
+    text-align: center;
+}
+#mid .bi-trash-fill{
+    font-size: 30px;
+    color: #000;
+}
+#mid table tr td{
+    font-size: 12px;
+}
